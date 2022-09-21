@@ -1,0 +1,24 @@
+{
+  "name": "lt-ui-library",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "examples/*",
+    "web"
+  ],
+  "scripts": {
+    "generate": "scaffdog generate",
+    "sb": "start-storybook -p 6006"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-docs": "^6.5.12",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/builder-vite": "^0.2.2",
+    "@storybook/react": "^6.5.12",
+    "scaffdog": "^2.3.0",
+    "vite": "^3.1.3"
+  }
+}

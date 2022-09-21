@@ -1,0 +1,53 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\zikky\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --exact --cwd C:\Users\zikky\workspace\zentech\ui-library\examples\next --dev eslint-config-next
+
+PATH: 
+  C:\Users\zikky\workspace\zentech\ui-library\examples\next\node_modules\.bin;C:\Users\zikky\workspace\zentech\ui-library\examples\node_modules\.bin;C:\Users\zikky\workspace\zentech\ui-library\node_modules\.bin;C:\Users\zikky\workspace\zentech\node_modules\.bin;C:\Users\zikky\workspace\node_modules\.bin;C:\Users\zikky\node_modules\.bin;C:\Users\node_modules\.bin;C:\node_modules\.bin;C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Program Files\PowerShell\7;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin;C:\Program Files (x86)\GnuWin32\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\GitHub CLI\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\PowerShell\7\;C:\Users\zikky\AppData\Local\Microsoft\WindowsApps;C:\Users\zikky\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\zikky\AppData\Local\Yarn\bin;C:\Users\zikky\AppData\Local\Programs\Azure Data Studio\bin;C:\Users\zikky\AppData\Local\GitHubDesktop\bin;C:\Users\zikky\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\zikky\workspace\zentech\ui-library\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "next",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "l": "next lint"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "next": "12.3.0",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "@6sryusk/synth-ui": "*"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.0.0",
+      "eslint": "7.32.0",
+      "next-transpile-modules": "9.0.0",
+      "@types/node": "^18.7.18",
+      "@types/react": "^18.0.20",
+      "typescript": "^4.5.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
