@@ -1,6 +1,6 @@
 {
   "name": "@6sryusk/synth-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "scripts": {
     "build": "vite build"
@@ -28,5 +28,13 @@
       "import": "./dist/lib.es.js",
       "require": "./dist/lib.umd.js"
     }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/6sryusk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/6sryusk/synth-ui.git",
+    "directory": "synth-ui"
   }
 }
